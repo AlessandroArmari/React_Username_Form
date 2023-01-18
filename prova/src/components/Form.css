@@ -1,0 +1,51 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 33vw;
+  padding: 7px;
+  border: black solid 6px;
+}
+
+.usernameWrong {
+  border: red solid 5px;
+}
+
+.usernameDefault {
+  border: black solid 2px;
+}
+
+.usernameGood {
+  border: green solid 5px;
+}
+
+.passwordWrong {
+  border: red solid 5px;
+}
+
+.passwordDefault {
+  border: black solid 2px;
+}
+
+.passwordGood {
+  border: green solid 5px;
+}
+
+.label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: grey;
+}
+
+.warning {
+  width: fit-content;
+  color: red;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.correct {
+  width: fit-content;
+  color: rgb(0, 255, 26);
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
